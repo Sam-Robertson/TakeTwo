@@ -1,3 +1,21 @@
+#navContainer {
+    width: 100%;
+    display: inline-flex;
+}
+
+#navMain{
+    background-color: #40566B !important;
+}
+
 #topBox {
-    color: hotpink;
+    color: green;
+}  
+
+#topCard {
+    background-image: url("../img/solarSunset.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin-left: 0px;
+    margin-right: 0px; 
 }
