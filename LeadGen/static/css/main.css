@@ -1,5 +1,4 @@
 #navContainer {
-    width: 100%;
     display: inline-flex;
 }
 
@@ -16,6 +15,4 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 80vh;
-    margin-left: 0px;
-    margin-right: 0px; 
 }
