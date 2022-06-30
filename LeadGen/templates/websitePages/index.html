@@ -126,8 +126,45 @@
                   </div>
                 
                 </main>
+
+
+
+
+
+                <!-- QUOTE INPUT FORM -->
+
+                <div class="album py-5 bg-white">
+                  <div class="container" >
+                    <form name="form" method="post" action="{% url 'addLead' %}">       <!--  https://app.myeducator.com/reader/web/1730k/chapter22/nm5vn/ -->
+                      {% csrf_token %}
+                      <!-- <input type="hidden" id="userId" name="userId"  -->
                 
-                <footer class="text-muted py-5">
+                      <label for='userName'>Name:</label>
+                      <input type="text" name='userName' id='userName'>
+                      <br><br>
+                      <label for='userPhone'>Phone:</label>
+                      <input type="text" name='userPhone' id='userPhone'>
+                      <br><br>
+                      <label for='userEmail'>Email:</label>
+                      <input type="email" name='userEmail' id='userEmail'>
+                      <br><br>
+                      <label for='userAddress'>Address:</label>
+                      <input type="text" name='userAddress' id='userAddress'>
+                      <br><br>
+                      <button type="submit">Submit</button>
+                   </form>
+                  </div>
+                </div>
+
+
+
+
+
+
+
+                <!-- FOOOTER -->
+                
+                <footer class="text-muted py-5 bg-light">
                   <div class="container">
                     <p class="float-end mb-1">
                       <a href="#">Back to top</a>
@@ -182,4 +219,4 @@
                 </div>
             </div>
             <footer></footer>
-        </body>  --> -->
+        </body>  --> 
